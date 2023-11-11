@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "period": "Aug 2023 - Present",
+    "title": "Pengembang Front-end Web dan Back-end - Studi Independen Bersertifikat (SIB) Cycle 5",
+    "company": "Kampus Merdeka",
+    "description": "As a participant of Front-end Web and Back-end learning Path at Dicoding Indonesia, which is to learn more about various things related to Front-end Web and Back-end such as:",
+    "list_skills": [
+      {
+        "id": 1,
+        "name": "Clean Code"
+      },
+      {
+        "id": 2,
+        "name": "Stress & Time Management"
+      },
+      {
+        "id": 3,
+        "name": "Teamwork"
+      },
+      {
+        "id": 4,
+        "name": "HTML & CSS"
+      },
+      {
+        "id": 5,
+        "name": "Javascript"
+      },
+      {
+        "id": 6,
+        "name": "PWA"
+      },
+      {
+        "id": 7,
+        "name": "API"
+      },
+      {
+        "id": 8,
+        "name": "Mobile First Approach"
+      },
+      {
+        "id": 9,
+        "name": "Accessibility"
+      },
+      {
+        "id": 10,
+        "name": "Integration & End to end testing"
+      },
+      {
+        "id": 11,
+        "name": "Deployment with CI/CD"
+      },
+      {
+        "id": 12,
+        "name": "Web Performance"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "period": "Sep 2023 - Present",
+    "title": "IDCamp 2023 - React Developer",
+    "company": "Indosat Ooredoo Hutchison Digital Camp",
+    "description": "As a participant of React learning Path, which is to learn more about various things related to React such as:",
+    "list_skills": [
+      {
+        "id": 1,
+        "name": "Clean Code"
+      },
+      {
+        "id": 2,
+        "name": "HTML & CSS"
+      },
+      {
+        "id": 3,
+        "name": "Javascript"
+      },
+      {
+        "id": 4,
+        "name": "State Management with Redux"
+      },
+      {
+        "id": 5,
+        "name": "API"
+      },
+      {
+        "id": 6,
+        "name": "Automation testing"
+      },
+      {
+        "id": 7,
+        "name": "React Useful Ecosystem, e.g., Next.js"
+      },
+      {
+        "id": 8,
+        "name": "Deployment with CI/CD"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "period": "Sep 2023 - Present",
+    "title": "DevHandal Batch 1",
+    "company": "CODEPOLITAN",
+    "description": "After completing this program, I have the skills and knowledge necessary to develop web applications. I can create static and dynamic websites, as well as large-scale web applications. I also have a good understanding of web development concepts, such as MVC, REST, and API.",
+    "list_skills": [
+      {
+        "id": 1,
+        "name": "HTML"
+      },
+      {
+        "id": 2,
+        "name": "CSS"
+      },
+      {
+        "id": 3,
+        "name": "Javascript"
+      },
+      {
+        "id": 4,
+        "name": "Node.js"
+      },
+      {
+        "id": 5,
+        "name": "Express.js"
+      },
+      {
+        "id": 6,
+        "name": "Nest.js"
+      },
+      {
+        "id": 7,
+        "name": "MongoDB"
+      }
+    ]
+  }
+]
