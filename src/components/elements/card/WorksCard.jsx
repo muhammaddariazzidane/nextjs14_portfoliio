@@ -10,20 +10,22 @@ export default function WorksCard() {
           My Works
         </h1>
       </div>
-      <div className="max-h-20 h-full  relative z-10   rounded-md">
+      <div className="max-h-20 h-full relative z-10 rounded-md">
         <Image
           src="/thumb_projects.png"
-          alt="foto.png"
-          className="h-full object-contain  rounded-md p-2 transition-all duration-500"
-          width={250}
-          height={0}
+          alt="thumb_projects.png"
+          className="h-full object-contain rounded-md p-2 transition-all duration-500"
+          width={500}
+          height={500}
+          quality={100}
+          loading="lazy"
         />
       </div>
       <div className="mt-2">
-        <p className=" text-xs opacity-80">Showcase</p>
+        <p className="text-xs opacity-80">Showcase</p>
         <div className="flex justify-between">
           <h1 className="text-base font-semibold">Portfolios</h1>
-          <Link href={'/'}>
+          <Link href={'/works'}>
             <ArrowRight />
           </Link>
         </div>

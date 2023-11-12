@@ -30,7 +30,7 @@ export default function Hero() {
   return (
     <>
       <div className="flex w-full flex-wrap md:flex-nowrap items-center p-2 justify-center gap-8">
-        <div className="shadow-md max-w-xs lg:max-w-lg bg-white dark:bg-slate-900 w-full  lg:max-h-48 md:max-h-48  md:flex-nowrap flex-wrap  flex relative items-center justify-center lg:p-5 md:p-5 sm:p-3 p-1 rounded-md ">
+        <div className="shadow-md max-w-[14rem] md:max-w-lg sm:max-w-lg lg:max-w-lg bg-white dark:bg-slate-900 w-full  lg:max-h-48 md:max-h-48  md:flex-nowrap flex-wrap  flex relative items-center justify-center lg:p-5 md:p-5 sm:p-3 p-1 rounded-md ">
           <div className="max-w-[10rem] bg-gradient-to-b from-indigo-400 to-sky-700 overflow-hidden lg:mt-0 mt-3 h-full w-full rounded-tl-2xl rounded-br-2xl">
             <Image
               src="/foto.png"
@@ -217,7 +217,7 @@ export default function Hero() {
             <p className=" text-xs opacity-80">Skills</p>
             <div className="flex justify-between">
               <h1 className="text-base font-semibold">Tech Stack</h1>
-              <Link href={'/'} className="">
+              <Link href={'/skills'}>
                 <ArrowRight />
               </Link>
             </div>

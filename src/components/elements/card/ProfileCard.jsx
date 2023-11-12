@@ -20,7 +20,7 @@ import { useLoadingStore } from '@/store/useLoadingStore';
 export default function ProfileCard() {
   const { loading, removeLoading } = useLoadingStore();
   return (
-    <div className="w-full min-h-[27rem] lg:w-[40%] md:w-1/2 sm:w-1/2  bg-white dark:bg-slate-900 shadow-md p-4 rounded-xl ">
+    <div className=" min-h-[27rem] lg:w-[40%] md:w-[24rem] sm:w-1/2 w-[16rem] bg-white dark:bg-slate-900 shadow-md p-4 rounded-xl ">
       <div className="mx-auto  max-w-[15rem]  h-full w-full  rounded-xl bg-gradient-to-b from-indigo-400 to-sky-700 overflow-hidden">
         <Image
           src="/foto.png"

@@ -1,6 +1,4 @@
-/* eslint-disable react-hooks/rules-of-hooks */
 /* eslint-disable react/no-unescaped-entities */
-
 import ContactForm from './elements/form/ContactForm';
 import ContactInfo from './elements/ContactInfo';
 import SocialInfo from './elements/SocialInfo';

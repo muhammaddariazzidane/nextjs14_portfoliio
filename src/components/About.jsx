@@ -5,7 +5,7 @@ export default function About() {
   return (
     <>
       <ProfileCard />
-      <div className="w-full  py-4 px-10">
+      <div className="w-full  py-4 lg:px-10 md:px-8 sm:px-6">
         <div className="mb-8 border-b">
           <h1 className="font-semibold lg:text-xl md:text-lg text-base">
             About Me
