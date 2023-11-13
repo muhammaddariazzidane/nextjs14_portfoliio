@@ -1,0 +1,64 @@
+[
+  {
+    "id": 1,
+    "period": "Sep 2021 - Present",
+    "title": "Sistem Informasi",
+    "company": "Universitas Bina Sarana Informatika",
+    "description": "I am currently pursuing a Information Systems program at Bina Sarana Informatika University. I have expanded my understanding in various related fields, including mastery of skills such as:",
+    "list_skills": [
+      {
+        "id": 1,
+        "name": "Python"
+      },
+      {
+        "id": 2,
+        "name": "PHP"
+      },
+      {
+        "id": 3,
+        "name": "Bootstrap"
+      },
+      {
+        "id": 4,
+        "name": "Codeigniter"
+      },
+      {
+        "id": 5,
+        "name": "Flutter"
+      },
+      {
+        "id": 6,
+        "name": "UI/UX"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "period": "Jul 2017 - Jul 2020",
+    "title": "Rekayasa Perangkat Lunak",
+    "company": "SMKN 1 TIRTAJAYA",
+    "description": "I pursued a Software Engineering program at SMKN 1 TIRTAJAYA from July 2017 to July 2020. During this time, I developed a comprehensive understanding in various fields and honed my skills in:",
+    "list_skills": [
+      {
+        "id": 1,
+        "name": "PHP"
+      },
+      {
+        "id": 2,
+        "name": "MySQL"
+      },
+      {
+        "id": 3,
+        "name": "Java"
+      },
+      {
+        "id": 4,
+        "name": "NetBeans"
+      },
+      {
+        "id": 5,
+        "name": "XAMPP"
+      }
+    ]
+  }
+]

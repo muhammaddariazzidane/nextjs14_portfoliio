@@ -1,5 +1,7 @@
-import ExperienceCard from './elements/card/ExperienceCard';
 import ProfileCard from './elements/card/ProfileCard';
+import experience from '@/services/experience';
+import educations from '@/services/educations';
+import Link from 'next/link';
 
 export default function About() {
   return (
@@ -32,7 +34,35 @@ export default function About() {
             </p>
           </div>
         </div>
-        <ExperienceCard />
+
+        <div className="flex gap-3">
+          <div className="max-h-full h-full w-full bg-white shadow-md dark:bg-slate-950 dark:border rounded-md p-4">
+            <h1>Exprerience</h1>
+            {experience?.slice(0, 2).map((item) => (
+              <div key={item.id} className="mt-2">
+                <p className="text-sm opacity-80 mt-3">{item.period}</p>
+                <Link href={'/skills'}>
+                  <h2 className="text-base my-1 text-indigo-600 dark:text-indigo-500">
+                    {item.title}
+                  </h2>
+                </Link>
+                <h3 className="opacity-80 text-sm">{item.company}</h3>
+              </div>
+            ))}
+          </div>
+          <div className="max-h-full h-full w-full bg-white shadow-md dark:bg-slate-950 dark:border rounded-md p-4">
+            <h1>Education</h1>
+            {educations?.slice(0, 2).map((item) => (
+              <div key={item.id} className="mt-2">
+                <p className="text-sm opacity-80 mt-3">{item.period}</p>
+                <h2 className="text-base my-1 text-indigo-600 dark:text-indigo-500">
+                  {item.title}
+                </h2>
+                <h3 className="opacity-80 text-sm">{item.company}</h3>
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
     </>
   );

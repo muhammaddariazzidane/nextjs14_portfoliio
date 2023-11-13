@@ -1,0 +1,168 @@
+[
+  {
+    "id": 1,
+    "image": "icons/Html.svg",
+    "title": "HTML"
+  },
+  {
+    "id": 2,
+    "image": "icons/Css.svg",
+    "title": "CSS"
+  },
+  {
+    "id": 3,
+    "image": "icons/Js.svg",
+    "title": "Javascript"
+  },
+  {
+    "id": 4,
+    "image": "icons/Php.svg",
+    "title": "PHP"
+  },
+  {
+    "id": 5,
+    "image": "icons/Py.svg",
+    "title": "Python"
+  },
+  {
+    "id": 6,
+    "image": "icons/Bootstrap.svg",
+    "title": "Bootstrap"
+  },
+  {
+    "id": 7,
+    "image": "icons/Tailwind.svg",
+    "title": "Tailwind CSS"
+  },
+  {
+    "id": 8,
+    "image": "icons/Chakraui.png",
+    "title": "Chakra UI"
+  },
+  {
+    "id": 9,
+    "image": "icons/Daisyui.svg",
+    "title": "Daisy UI"
+  },
+  {
+    "id": 10,
+    "image": null,
+    "title": "Shadcn UI"
+  },
+  {
+    "id": 11,
+    "image": "icons/React.svg",
+    "title": "React.js"
+  },
+  {
+    "id": 12,
+    "image": "icons/nextjs.png",
+    "title": "Next.js"
+  },
+  {
+    "id": 13,
+    "image": "icons/adonisjs.png",
+    "title": "Adonis.js"
+  },
+  {
+    "id": 14,
+    "image": "icons/Nodejs.svg",
+    "title": "Node.js"
+  },
+  {
+    "id": 15,
+    "image": "icons/Expressjs.png",
+    "title": "Express.js"
+  },
+  {
+    "id": 16,
+    "image": "icons/hapijs.png",
+    "title": "Hapi.js"
+  },
+  {
+    "id": 17,
+    "image": "icons/Ci.webp",
+    "title": "Codeigniter"
+  },
+  {
+    "id": 18,
+    "image": "icons/Laravel.svg",
+    "title": "Laravel"
+  },
+  {
+    "id": 19,
+    "image": "icons/Flask.webp",
+    "title": "Flask"
+  },
+  {
+    "id": 20,
+    "image": "icons/Mysql.svg",
+    "title": "MySQL"
+  },
+  {
+    "id": 21,
+    "image": "icons/mongodb.png",
+    "title": "MongoDB"
+  },
+  {
+    "id": 22,
+    "image": "icons/Vscode.svg",
+    "title": "Visual Studio Code"
+  },
+  {
+    "id": 23,
+    "image": "icons/Git.svg",
+    "title": "Git"
+  },
+  {
+    "id": 24,
+    "image": "icons/redux.png",
+    "title": "Redux"
+  },
+  {
+    "id": 25,
+    "image": "icons/zustand.png",
+    "title": "Zustand"
+  },
+  {
+    "id": 26,
+    "image": "icons/react-hook-form.svg",
+
+    "title": "React Hook Form"
+  },
+  {
+    "id": 27,
+    "image": "icons/Jest.svg",
+    "title": "Jest"
+  },
+  {
+    "id": 28,
+    "image": "icons/vitest.png",
+    "title": "Vitest"
+  },
+  {
+    "id": 29,
+    "image": "icons/pwa.webp",
+    "title": "Progresive Web App"
+  },
+  {
+    "id": 30,
+    "image": "icons/Vercel.svg",
+    "title": "Vercel"
+  },
+  {
+    "id": 31,
+    "image": "icons/Netlify.svg",
+    "title": "Netlify"
+  },
+  {
+    "id": 32,
+    "image": "icons/vite.png",
+    "title": "Vite"
+  },
+  {
+    "id": 33,
+    "image": "icons/Axios.svg",
+    "title": "Axios"
+  }
+]

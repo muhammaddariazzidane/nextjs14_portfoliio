@@ -47,7 +47,7 @@ export const metadata = {
         alt: 'My Profile',
       },
     ],
-    locale: 'ID',
+    locale: 'id-ID',
     type: 'website',
   },
 };
