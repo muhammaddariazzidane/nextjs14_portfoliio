@@ -2,8 +2,10 @@ import { Button } from '@/components/ui/button';
 import { AnimatePresence, motion } from 'framer-motion';
 import { ExternalLink, GithubIcon, X } from 'lucide-react';
 import Image from 'next/image';
-import React from 'react';
-import GithubBtn from '@/components/elements/button/social/GithubBtn';
+import dynamic from 'next/dynamic';
+const GithubBtn = dynamic(() =>
+  import('@/components/elements/button/social/GithubBtn')
+);
 import Link from 'next/link';
 
 export default function ProjectModal(props) {

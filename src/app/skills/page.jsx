@@ -1,8 +1,8 @@
 import ExperienceCard from '@/components/elements/card/ExperienceCard';
 import { Button } from '@/components/ui/button';
+import { SiExpress } from 'react-icons/si';
 import Image from 'next/image';
 import skills from '@/services/skills';
-import { SiExpress } from 'react-icons/si';
 
 export default function page() {
   return (

@@ -1,9 +1,18 @@
 'use client';
 
-import GithubBtn from '@/components/elements/button/social/GithubBtn';
-import InstagramBtn from '@/components/elements/button/social/InstagramBtn';
-import LinkedinBtn from '@/components/elements/button/social/LinkedinBtn';
-import TiktokBtn from '@/components/elements/button/social/TiktokBtn';
+import dynamic from 'next/dynamic';
+const GithubBtn = dynamic(() =>
+  import('@/components/elements/button/social/GithubBtn')
+);
+const InstagramBtn = dynamic(() =>
+  import('@/components/elements/button/social/InstagramBtn')
+);
+const LinkedinBtn = dynamic(() =>
+  import('@/components/elements/button/social/LinkedinBtn')
+);
+const TiktokBtn = dynamic(() =>
+  import('@/components/elements/button/social/TiktokBtn')
+);
 import { Button } from '@/components/ui/button';
 import {
   Tooltip,

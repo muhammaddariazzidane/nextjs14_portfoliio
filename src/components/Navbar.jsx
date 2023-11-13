@@ -1,6 +1,9 @@
 'use client';
 
-import ModeToggle from '@/components/elements/button/ModeToggle';
+import dynamic from 'next/dynamic';
+const ModeToggle = dynamic(() =>
+  import('@/components/elements/button/ModeToggle')
+);
 import { Menu, X } from 'lucide-react';
 import { Button } from './ui/button';
 import Link from 'next/link';

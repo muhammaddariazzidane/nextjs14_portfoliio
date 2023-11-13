@@ -2,8 +2,10 @@
 
 import { useLoadingStore } from '@/store/useLoadingStore';
 import { useProjectStore } from '@/store/useProjectStore';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import Image from 'next/image';
+import dynamic from 'next/dynamic';
+const CertificationModal = dynamic(() => import('../modal/CertificationModal'));
 
 export default function CertificationCard({ certificate, certificates }) {
   const { loading, removeLoading } = useLoadingStore();
@@ -32,38 +34,12 @@ export default function CertificationCard({ certificate, certificates }) {
         onClick={() => handleDetailCertificate(certificate.id)}
       />
       {selectedCertificate && (
-        <AnimatePresence>
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            className="absolute top-0 left-0 w-full h-full flex items-center justify-center overflow-hidden "
-            onClick={removeSelectedId}
-          >
-            <motion.div
-              initial={{ y: -100, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              exit={{ y: -100, opacity: 0 }}
-              layoutId={selectedCertificate.id}
-              className=" w-11/12 md:max-w-md mx-4 p-6 overflow-hidden"
-            >
-              <div className="relative">
-                <Image
-                  src={`/${selectedCertificate.image}`}
-                  alt={`${selectedCertificate.image}`}
-                  width={500}
-                  height={500}
-                  quality={100}
-                  className={`w-full h-full object-contain ${
-                    loading ? 'blur' : 'blur-0'
-                  }`}
-                  loading="lazy"
-                  onLoadingComplete={() => removeLoading()}
-                />
-              </div>
-            </motion.div>
-          </motion.div>
-        </AnimatePresence>
+        <CertificationModal
+          selectedCertificate={selectedCertificate}
+          removeSelectedId={removeSelectedId}
+          loading={loading}
+          removeLoading={removeLoading}
+        />
       )}
     </motion.div>
   );
