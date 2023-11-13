@@ -35,7 +35,7 @@ export default function About() {
           </div>
         </div>
 
-        <div className="flex gap-3">
+        <div className="flex justify-center flex-wrap lg:flex-nowrap  gap-3">
           <div className="max-h-full h-full w-full bg-white shadow-md dark:bg-slate-950 dark:border rounded-md p-4">
             <h1>Exprerience</h1>
             {experience?.slice(0, 2).map((item) => (
